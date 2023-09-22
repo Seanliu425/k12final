@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Sean Liu"
+  },
+  "text": {
+    "more": "Nodes displayed are either respondents to the survey or were listed as collaborators in the survey. The data only displays reported collaborations, so it is not representative of the entirety of the network.",
+    "intro": "This network shows reported collaboration between K-12 Schools and community organizations in the ANL South Side Survey. K-12 schools in pink, and community organizations in yellow — Click on a node to see reported connections and other statistics.  ",
+    "title": "K-12 and Community Organization Partnerships"
+  },
+  "legend": {
+    "edgeLabel": "Collaboration",
+    "colorLabel": "Provider Type",
+    "nodeLabel": "Survey Respondents"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
